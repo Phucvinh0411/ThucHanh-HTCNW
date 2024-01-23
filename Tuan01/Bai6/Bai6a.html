@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px auto;
+            /* padding: 10px; */
+        }
+
+        .wrapper {
+            background-color: #99CDFD;
+            width: 800px;
+            padding: 10px;
+
+        }
+
+        .wrapper .title {
+            text-align: center;
+            /* margin: 0px auto; */
+            width: 30%;
+            font-size: 20px;
+            background-color: #06FBFF;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px 3px #94A5BF;
+            margin-bottom: 20px;
+        }
+
+        .wrapper .title .top {
+            border-bottom: 5px solid rgba(0, 0, 0, 01);
+        }
+
+        .row {
+            display: block;
+            margin: 5px 0px;
+        }
+
+        .col25 {
+            width: 25%;
+            float: left;
+        }
+
+        .addrs {
+            width: 250px;
+        }
+
+        #state {
+            width: 100px;
+        }
+
+        #zip {
+            width: 100px;
+        }
+
+        .form {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.303);
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <div class="top">Jackson</div>
+            <div class="bot">Electronics</div>
+        </div>
+        <div class="container">
+            <p style="text-align: center"><b>Registration Form</b></p>
+            <p style="text-align: center;">Reigister your Jackson Electronics product here</p>
+            <form action="" class="form">
+                <div class="row">
+                    <label class="col25" for="Fname">First Name: </label>
+                    <div class="col75">
+                        <input type="text" id="Fname" name="Fname">
+                        <label for="Lname">Last Name: </label>
+                        <input type="text" id="Lname" name="Lname">
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col25" for="address1">Address #1: </label>
+                    <input class="col75 addrs" type="text" name="address1" id="address1">
+                </div>
+                <div class="row">
+                    <label class="col25" for="address2">Address #2: </label>
+                    <input class="col75 addrs" type="text" name="address2" id="address2">
+                </div>
+                <div class="row">
+                    <label class="col25" for="city">City: </label>
+                    <div class="col75">
+                        <input type="text" name="city" id="city">
+                        <label for="state">State: </label>
+                        <input type="text" name="state" id="state">
+                        <label for="zip">Zip</label>
+                        <input type="text" name="zip" id="zip">
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col25" for="country">Country</label>
+                    <input class="col75" type="country" name="country" id="country" readonly
+                        placeholder="United States">
+                </div>
+
+            </form>
+        </div>
+        <div class="container">
+            <form action="" class="form">
+                <div class="row">
+                    <label for="select" class="col25">Product</label>
+                    <select name="select" id="select" class="col75">
+                        <option value="Scanmaster">Scanmaster</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <lable for="date" class="col25">Date purchased</lable>
+                    <input type="text" class="col75" id="date" name="date">
+                </div>
+                <div class="row">
+                    <lable for="serial" class="col25">Serial</lable>
+                    <input type="text" class="col75" id="serial" name="serial">
+                </div>
+                <div class="row">
+                    <div class="col25">
+                        Used for
+                    </div>
+                    <div class="col75">
+                        <div class="row">
+                            <div class="col25">
+                                <input type="radio" name="used" id="home" value="home">
+                                <label for="home">Home</label>
+                            </div>
+                            <div class="col75">
+                                <input type="radio" name="used" id="edu" value="Educational Institution">
+                                <label for="edu">Educational Institution</label>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col25" style="visibility: hidden;">" "</div>
+                    <div class="col75">
+                        <div class="row">
+                            <div class="col25">
+                                <input type="radio" name="used" id="bus" value="Business">
+                                <label for="bus">Business</label>
+                            </div>
+                            <div class="col75">
+                                <input type="radio" name="used" id="or" value="Orther">
+                                <label for="or">Order</label>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                </div>
+            </form>
+        </div>
+        <div class="form"></div>
+    </div>
+</body>
+
+</html>
