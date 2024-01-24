@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    width: 1089px;
+    background-color: #6DC6ED;
+    color: white;
+}
+
+.header {
+    border-bottom: 5px dotted white;
+    height: 55px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.header .menu ul {
+    list-style-type: none;
+    position: relative;
+}
+
+.header .menu ul li {
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    position: absolute;
+    text-indent: 10px;
+    line-height: 50px;
+}
+
+.header .menu ul li:nth-child(2) {
+    left: 150px;
+}
+
+.header .menu ul li:nth-child(3) {
+    left: calc(150px*2);
+}
+
+.header .menu ul li:nth-child(4) {
+    left: calc(150px*3);
+}
+
+.header .menu ul li:nth-child(5) {
+    left: calc(150px*4);
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header .sky {
+    position: absolute;
+    line-height: 50px;
+    right: 10px;
+    font-size: 30px;
+    /* color: white; */
+    font-weight: 700;
+    text-shadow: 2px 2px 9px blue;
+}
+
+.content {
+    border-bottom: 5px dotted white;
+}
+
+.content .item {
+    width: 49%;
+}
+
+.content .item1 {
+    float: left;
+}
+
+.content .item1 form {
+    margin-top: 10px;
+}
+
+.content .item1 form .row {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content .item1 form .row .width45 {
+    width: 45%;
+    float: left;
+    text-indent: 10px;
+}
+
+.content .item1 form .row .width55 {
+    width: 55%;
+    float: right;
+}
+
+.content .item1 form .row .width55 input {
+    border-radius: 5px;
+}
+
+.content .item1 form .row .width55 select {
+    border-radius: 5px;
+}
+
+.content .item1 form .row .width55 textarea {
+    border-radius: 5px;
+}
+
+.content .item2 {
+    float: right;
+    color: blue;
+}
+
+.content .item2 img {
+    width: 80%;
+}
+
+.content .item2 h2 {
+    text-shadow: 2px 2px 1px blue;
+    font-size: 30px;
+}
