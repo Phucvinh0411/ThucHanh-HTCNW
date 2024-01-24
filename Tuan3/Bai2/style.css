@@ -1,0 +1,13 @@
+*{
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 1089px;
+}
+
+.wrapper .header{
+    background-color: #2C4E7B;
+    color: white;
+}
