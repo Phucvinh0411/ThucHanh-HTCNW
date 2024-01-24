@@ -67,6 +67,7 @@
 }
 
 .content {
+    padding: 20px 0px;
     border-bottom: 5px dotted white;
 }
 
@@ -84,7 +85,7 @@
 
 .content .item1 form .row {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .content .item1 form .row .width45 {
@@ -113,6 +114,7 @@
 .content .item2 {
     float: right;
     color: blue;
+    padding: 20px;
 }
 
 .content .item2 img {
@@ -128,4 +130,11 @@
     position: relative;
     left: 25px;
     font-weight: 700;
+}
+
+.footer {
+    width: 800px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
 }
