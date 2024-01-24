@@ -123,3 +123,9 @@
     text-shadow: 2px 2px 1px blue;
     font-size: 30px;
 }
+
+.content .item2 p {
+    position: relative;
+    left: 25px;
+    font-weight: 700;
+}
