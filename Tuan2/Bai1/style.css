@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color-text: #BF756E;
+    --color-bg: #F5F4DF;
+
+}
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid rgb(41, 41, 41);
+    box-shadow: rgba(240, 46, 170, 0.4) 0px -3px 3px;
+    padding-bottom: 80px;
+}
+
+
+.header{
+    color: var(--color-bg);
+    text-align: center;
+    border-bottom: 1px solid rgb(41, 41, 41);
+    box-shadow: rgba(29, 28, 28, 0.314) 0px 1px 1px;
+}
+
+.header h1{
+    color: var(--color-text);
+    text-shadow: rgba(118, 19, 22, 0.34) 0px 10px 8px;
+}
+.menu ul{
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+    background-color: #ED9496;
+    color: white;
+}
+
+.menu ul li{
+    margin-right: 5px;
+    border-right: 1px solid #B9638E;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.menu ul :last-child{
+    border-right: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #BF756E;
+    color: white;
+}
+
+
+.section h2{
+    background-color: #F5F4DF;
+    margin: 0;
+    padding: 10px 0px;
+}
+.section ul{
+    margin: 0;
+}
+.section ul li .choose{
+    color: red;
+    text-decoration: underline;
+}
+.section ul .bold{
+    color: #CD8A6B;
+    font-weight: 700;
+}
+
+.section .backTop a{
+    color: red;
+    font-weight: 700;
+}
